@@ -21,7 +21,7 @@ docker run --rm \
     seekie/jupyterlab --generate-config
 ```
 
-Modify the default configuration, which will now be available under $PWD. Then start the InfluxDB container.
+Modify the default configuration, which will now be available under $PWD. Then start the JupyterLab container.
 ```bash
 docker run -d --name jupyterlab \
     -p 8888:8888 \
